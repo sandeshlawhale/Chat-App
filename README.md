@@ -28,5 +28,5 @@ This is a feature-rich chat application built using ReactJS, JSX, and Firebase. 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/chat-application.git
+   git clone [https://github.com/yourusername/chat-application.git](https://github.com/RogueSandy/Chat-App.git)
    cd chat-app
