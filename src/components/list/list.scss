@@ -1,0 +1,145 @@
+.list {
+  flex: 1;
+  // overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  .userDetails {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddd53;
+
+    .user {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      img {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        object-fit: cover;
+        cursor: pointer;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+      }
+    }
+
+    .icons {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      .moreIcon {
+        position: relative;
+        align-items: center;
+        display: flex;
+      }
+
+      svg {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .chatlist {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    overflow: hidden;
+    .search {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+
+      .searchbox {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        flex: 1;
+        background-color: rgba(24, 31, 38, 0.5);
+        padding: 10px;
+        border-radius: 7px;
+
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+        input {
+          background: transparent;
+          border: none;
+          outline: none;
+          color: white;
+          flex: 1;
+        }
+      }
+      .add {
+        padding: 10px;
+        background-color: rgba(24, 31, 38, 0.5);
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+    .chatUser {
+      overflow-y: scroll;
+
+      &::-webkit-scrollbar {
+        width: 3px;
+        &-thumb {
+          width: 3px;
+          background-color: rgba(24, 31, 38, 0.5);
+          border-radius: 33px;
+        }
+      }
+
+      .item {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 10px;
+        border-bottom: 1px solid #dddddd35;
+        cursor: pointer;
+
+        img {
+          width: 3rem;
+          height: 3rem;
+          object-fit: cover;
+          border-radius: 50%;
+        }
+        .texts {
+          display: flex;
+          flex-direction: column;
+
+          span {
+            font-size: 18px;
+            font-size: 500;
+            text-transform: capitalize;
+          }
+          p {
+            font-size: 14px;
+            font-size: 300;
+            color: #dddddd99;
+            text-transform: capitalize;
+          }
+        }
+      }
+    }
+  }
+}
