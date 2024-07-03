@@ -2,6 +2,10 @@
 
 This is a feature-rich chat application built using ReactJS, JSX, and Firebase. Users can Hop in by creating a new account or login and enjoy real-time messaging with other users.
 
+## Demo
+
+Check out the [Live Demo](https://chatapp-ed6f0.web.app/) to see the chat application in action.
+
 ## Table of Contents
 
 - [Features](#features)
@@ -77,6 +81,7 @@ This is a feature-rich chat application built using ReactJS, JSX, and Firebase. 
  - File Sending: There is no feature to send files.
  - Theme Changes: There are no theme change options.
  - Chat Settings: There are no chat settings available.
+ - Responsiveness: Only responsive for Moniter screen.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes that you may find or from the listed above.
