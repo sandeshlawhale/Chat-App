@@ -82,7 +82,7 @@ This is a feature-rich chat application built using ReactJS, JSX, and Firebase. 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes that you may find or from the listed above.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for more details.
 
 ## Acknowledgements
 Special thanks to the React and Firebase teams for their amazing tools and documentation.
