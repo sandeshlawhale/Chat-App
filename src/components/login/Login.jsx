@@ -72,18 +72,18 @@ function Login() {
         //   console.log(imgUrl);
         //   console.log(img);
         // }
-        await setDoc(doc(db, "users", res.user.uid), {
+        await setDoc(doc(db, "users", res?.user?.uid), {
           username,
           email,
           bio: "",
           handle: "",
           link: "",
           avatar: "",
-          id: res.user.uid,
+          id: res?.user?.uid,
           blocked: [],
         });
 
-        await setDoc(doc(db, "userchat", res.user.uid), {
+        await setDoc(doc(db, "userchat", res?.user?.uid), {
           chats: [],
         });
 
@@ -101,7 +101,7 @@ function Login() {
 
   // useEffect(async () => {
   //   console.log(imgUrl);
-  //   await setDoc(doc(db, "users", res.user.uid), {
+  //   await setDoc(doc(db, "users", res?.user?.uid), {
   //     avatar: imgUrl
   //   }
   // }, [imgUrl]);
